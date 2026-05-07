@@ -1,0 +1,4 @@
+#curl
+
+curl -X POST "http://localhost:8000/server?server_name=server5" -H "Content-Type: application/json" -d'{
+"id":5,"name":"dbserver","ip":"192.123.12.23","status":"running","users":["nabeel","dbadmin"]}'

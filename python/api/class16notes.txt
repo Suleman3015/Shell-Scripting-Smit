@@ -1,0 +1,39 @@
+JSON : Javascript object notation
+(dictionary format mae data save)
+
+4 Server: Bash (CPU, Memory, Disk)
+
+Monitoring App ki API banaiengy
+Monitoring APP -> API
+
+pip3 install fastapi
+
+from fastapi import fastapi
+
+app = FastAPI
+
+# Read = GET | Write = POST (request)
+#localhost:8000
+@app.get("/")
+def home():
+    return {"message": "API is running"}
+
+#application chalti rahe => pip install uvicorn
+
+
+
+Go to home terminal linux (present in home dir of user)
+nano .bashrc (update) in last 
+export path="$HOME/.local/bin:$PATH"
+
+pip3 install fastapi unicorn
+
+uvicorn
+source .bashrc
+
+unicorn main:app --reload
+
+if not working
+
+unicorn main:app --reload -port 8008
+curl localhost:
