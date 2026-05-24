@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+test_env/
+venv/
+env/
+
+# Windows metadata
+*Zone.Identifier
+
+# VSCode
+.vscode/

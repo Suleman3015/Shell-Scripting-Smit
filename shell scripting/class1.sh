@@ -39,4 +39,3 @@ if [[ "$student_answer" == "a" ]]; then
 else
     echo "wrong answer"
 fi
-
